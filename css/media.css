@@ -1,0 +1,135 @@
+@media(max-width:575.98px){
+    .navs{
+        display: block;
+    }
+    
+    ul li a{
+        direction: rtl;
+    }
+    .nav-head h2{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .flex-img{
+        text-align: center;
+        margin: auto;
+    }
+    .people div{
+        border: 2px solid #111;
+        border-radius: 25px;
+        padding: 15px;
+        width: 250px;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+   
+    .contact .row .card .btn{
+        margin: auto;
+        margin-top: 20px;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        text-align: center;
+        margin: auto;
+    }
+    .final-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .final-flex div{
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
+        /* border-left: 2px solid #fff; */
+    }
+    .numbers-span{
+        font-size: 15px !important;
+    }
+   .number-name{
+       font-size: 20px;
+       font-weight: bold;
+   }
+   .div-service h4{
+       font-size: 15px;
+   }
+   .body h2{
+    width: 100%;
+    margin: 12px auto;
+}
+.project{
+    min-height: 300px;
+}
+.footer-final{
+    font-size: 12px !important;
+}
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .navs{
+        display: flex;
+    }
+ 
+    .nav-head h2{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .flex-img{
+        text-align: center;
+        margin: auto;
+    }
+    .logo{
+        text-align: center;
+        margin: auto;
+    }
+    .people div{
+        border: 2px solid #111;
+        border-radius: 25px;
+        padding: 15px;
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+  
+ 
+    .final-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .final-flex div{
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
+        /* border-left: 2px solid #fff; */
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .people div{
+        border: 2px solid #111;
+        border-radius: 25px;
+        padding: 15px;
+        width: 400px;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+    .final-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .final-flex div{
+        width: 100%;
+        min-height: 200px;
+        padding: 20px;
+        /* border-left: 2px solid #fff; */
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+@media(min-width:1200px){
+
+}
